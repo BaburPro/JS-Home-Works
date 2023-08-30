@@ -1,0 +1,217 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+* {
+    font-family: sans-serif; 
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+span, a {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.all, .boxes {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+.top {
+    text-align: center;
+    padding-top: 200px;
+    border-bottom: 1px solid gray;
+}
+.spn {
+    color: red;
+    font-size: 100px;
+}
+.icon {
+    color: red;
+    font-size: 120px;
+    margin-right: 20px;
+}
+.icon12, .spn12 {
+    color: dodgerblue;
+}
+.icon12 {
+    font-size: 120px;
+}
+.spn12 {
+    font-size: 100px;
+}
+.center {
+    padding-top: 50px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.link-lang {
+    color: #36395A;
+    display: block;
+}
+.languages {
+    position: relative;
+}
+.first {
+    background-color: #fff;
+    box-shadow: 0 0 50px 3px #000;
+    color: #FFFEFF;
+    padding: 30px 90px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.spn1 {
+    margin-right: 5px;
+    font-size: 60px;
+    color: #36395A;
+}
+.icon4 {
+    font-size: 50px;
+    margin-left: 20px;
+    color: #36395A;
+    transition: 0.2s all linear;
+}
+.langs {
+    background-color: #fff;
+    color: #36395A;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 160px;
+    width: 510px;
+    margin-left: 377px;
+    text-align: justify;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 50px 3px #000;
+}
+.icon4-new {
+    transform: rotate(180deg);
+}
+.languages-new {
+    display: block;
+}
+.lang {
+    font-size: 50px;
+    padding: 30px;
+}
+.lang:first-child, .lang:nth-child(2) {
+    border-bottom: 1px solid gray;
+}
+.lang:last-child {
+    margin-bottom: 0;
+}
+.langs-new {
+    display: block;
+}
+.top-box {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid gray;
+}
+.img {
+    width: 170px;
+}
+.link {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 3px #7c7c7c;
+    transition: box-shadow 0.2s all linear;
+    margin-right: 20px;
+}
+.link:last-child {
+    margin-right: 0;
+}
+.icon1 {
+    display: block;
+}
+.icon2 {
+    display: none;
+}
+.icon1-new {
+    display: none;
+}
+.icon2-new {
+    display: block;
+}
+.btn {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  height: 80px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.btn-new {
+    background-color: #FCFCFD;
+}
+.btn:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+.btn:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.last-link {
+    color: #fff;
+    background-color: rgba(14, 135, 255, 0.615);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    font-size: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px 1px #000;
+    transition: 0.2s all linear;
+}
+.last-link:hover {
+    background-color: dodgerblue;
+}
